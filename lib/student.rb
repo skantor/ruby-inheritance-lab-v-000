@@ -9,6 +9,7 @@ class Student < User
   end
   
   def learn(str)
+    @str = str
     knowledge << str 
   end 
   
