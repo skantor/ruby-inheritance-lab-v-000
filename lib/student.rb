@@ -5,7 +5,8 @@ class Student < User
   attr_accessor :name :str
   knowledge = []
  
-  def initialize
+  def initialize(name)
+    @name = name
     knowledge = []
   end
   
