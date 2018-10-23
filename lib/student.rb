@@ -6,15 +6,15 @@ class Student < User
 
   
   def new
-  @@knowledge = []
+    knowledge = []
   end
   
   def learn(str)
-    @@knowledge << str 
+    knowledge << str 
   end 
   
   def knowledge 
-    @@knowledge
+    knowledge
   end 
   
 end
