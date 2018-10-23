@@ -5,7 +5,8 @@ class Student < User
   attr_accessor :str
   @@knowledge = []
   
-
+  def new 
+    
   
   def learn(str)
     @@knowledge << str 
