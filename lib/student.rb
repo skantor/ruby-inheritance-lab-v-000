@@ -2,7 +2,7 @@ require_relative "teacher.rb"
 
 class Student < User
   
-  attr_accessor :str
+  attr_accessor :name :str
   knowledge = []
  
   def initialize
