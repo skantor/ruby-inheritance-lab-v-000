@@ -6,7 +6,8 @@ class Student < User
   @@knowledge = []
   
   def new 
-    
+    @@knowledge = []
+  end 
   
   def learn(str)
     @@knowledge << str 
