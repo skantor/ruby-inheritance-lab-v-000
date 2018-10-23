@@ -5,13 +5,12 @@ class Student < User
   attr_accessor :str
  
   def initialize()
-    @name = name
     @knowledge = []
   end
   
   def learn(str)
     @str = str
-    @knowledge << str 
+    @knowledge << @str 
   end 
   
   def knowledge 
